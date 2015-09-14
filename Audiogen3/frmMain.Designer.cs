@@ -64,12 +64,12 @@
             this.lblMakeDataCDDrive = new Telerik.WinControls.UI.RadLabel();
             this.cboMakeDataCDDrive = new Telerik.WinControls.UI.RadDropDownList();
             this.pgeDecodeMP3s = new Telerik.WinControls.UI.RadPageViewPage();
+            this.rwbDecodeWait = new Telerik.WinControls.UI.RadWaitingBar();
             this.prgDecode = new Telerik.WinControls.UI.RadProgressBar();
             this.cmdDecodeNow = new Telerik.WinControls.UI.RadButton();
             this.tvwDecodeMp3s = new Telerik.WinControls.UI.RadTreeView();
             this.lblDecodeMp3Status = new Telerik.WinControls.UI.RadLabel();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.rwbDecodeWait = new Telerik.WinControls.UI.RadWaitingBar();
             ((System.ComponentModel.ISupportInitialize)(this.rpvFunctions)).BeginInit();
             this.rpvFunctions.SuspendLayout();
             this.pgeAudioCD.SuspendLayout();
@@ -104,11 +104,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblMakeDataCDDrive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboMakeDataCDDrive)).BeginInit();
             this.pgeDecodeMP3s.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rwbDecodeWait)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prgDecode)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cmdDecodeNow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tvwDecodeMp3s)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblDecodeMp3Status)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rwbDecodeWait)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -508,6 +508,15 @@
             this.pgeDecodeMP3s.Text = "Decode MP3s";
             this.pgeDecodeMP3s.Paint += new System.Windows.Forms.PaintEventHandler(this.pgeDecodeMP3s_Paint);
             // 
+            // rwbDecodeWait
+            // 
+            this.rwbDecodeWait.Location = new System.Drawing.Point(317, 278);
+            this.rwbDecodeWait.Name = "rwbDecodeWait";
+            this.rwbDecodeWait.Size = new System.Drawing.Size(307, 25);
+            this.rwbDecodeWait.TabIndex = 25;
+            this.rwbDecodeWait.Text = "radWaitingBar2";
+            this.rwbDecodeWait.WaitingIndicatorSize = new System.Drawing.Size(50, 30);
+            // 
             // prgDecode
             // 
             this.prgDecode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
@@ -557,15 +566,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // rwbDecodeWait
-            // 
-            this.rwbDecodeWait.Location = new System.Drawing.Point(317, 278);
-            this.rwbDecodeWait.Name = "rwbDecodeWait";
-            this.rwbDecodeWait.Size = new System.Drawing.Size(307, 24);
-            this.rwbDecodeWait.TabIndex = 25;
-            this.rwbDecodeWait.Text = "radWaitingBar2";
-            this.rwbDecodeWait.WaitingIndicatorSize = new System.Drawing.Size(50, 30);
             // 
             // frmMain
             // 
@@ -620,11 +620,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.cboMakeDataCDDrive)).EndInit();
             this.pgeDecodeMP3s.ResumeLayout(false);
             this.pgeDecodeMP3s.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rwbDecodeWait)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prgDecode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cmdDecodeNow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tvwDecodeMp3s)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblDecodeMp3Status)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rwbDecodeWait)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
