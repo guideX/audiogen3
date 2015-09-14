@@ -6,3 +6,12 @@ C:\dev\team-nexgen\audiogen3\Audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWav
 C:\dev\team-nexgen\audiogen3\Audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.dll
 C:\dev\team-nexgen\audiogen3\Audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.xml
 C:\dev\team-nexgen\audiogen3\Audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.pdb
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\bin\Debug\AudiogenWaveWriter.dll
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\bin\Debug\AudiogenWaveWriter.pdb
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\bin\Debug\AudiogenWaveWriter.xml
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.vbprojResolveAssemblyReference.cache
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.Resources.resources
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.vbproj.GenerateResource.Cache
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.dll
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.xml
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.WaveStream\obj\Debug\AudiogenWaveWriter.pdb

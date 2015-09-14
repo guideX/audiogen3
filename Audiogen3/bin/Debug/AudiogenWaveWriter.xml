@@ -6,115 +6,135 @@ AudiogenWaveWriter
 </name>
 </assembly>
 <members>
-<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.DisposeResources(System.Boolean)">
-	<summary>
- Clears up resources associated with this class.
- </summary>
-	<param name="disposing"><code>true</code> if disposing from the <c>Dispose</c>
- method, otherwise <c>false</c>.</param>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Filename">
-	<summary>
- Gets/sets the wave file name.
- </summary>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Channels">
-	<summary>
- Gets the number of audio channels in the file.
- </summary>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.SamplingFrequency">
-	<summary>
- Gets the sample frequency of the file.
- </summary>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.BitsPerSample">
-	<summary>
- Gets the number of bits per sample in the wave file.
- </summary>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.CanRead">
-	<summary>
- Gets whether the stream can be read or not (true whenever a wave file
- is open).
- </summary>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.CanSeek">
-	<summary>
- Gets whether the stream is seekable or not (true whenever a wave file
- is open)
- </summary>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.CanWrite">
-	<summary>
- Returns false; this is a read-only stream
- </summary>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Flush">
-	<summary>
- Throws an exception; this is a read-only stream
- </summary>
-	<exception cref="T:System.InvalidOperationException">Thrown exception</exception>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Length">
-	<summary>
- Gets the length of this wave file, in bytes.
- </summary>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.SetLength(System.Int64)">
-	<summary>
- Throws an exception; this is a read-only stream
- </summary>
-	<exception cref="T:System.InvalidOperationException">Thrown exception</exception>
-</member><member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Position">
-	<summary>
- Gets/sets the position within the wave file.
- </summary>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read(System.Byte[],System.Int32)">
-	<summary>
- Reads <c>count</c> bytes into the buffer.
- </summary>
-	<param name="buffer">Buffer to read into</param>
-	<param name="count">Number of bytes to read</param>
-	<returns>Number of bytes read.</returns>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read(System.Byte[],System.Int32,System.Int32)">
-	<summary>
- Reads <c>count</c> bytes into the buffer.
- </summary>
-	<param name="buffer">Buffer to read into</param>
-	<param name="count">Number of bytes to read</param>
-	<param name="offset">Offset from the current file position to start reading from</param>
-	<returns>Number of bytes read.</returns>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read16bit(System.Int16[],System.Int32)">
-	<summary>
- Reads <c>count</c> shorts into the buffer.
- </summary>
-	<param name="buffer">Buffer to read into</param>
-	<param name="count">Number of shorts to read</param>
-	<returns>Number of bytes read.</returns>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read16bit(System.Int16[],System.Int32,System.Int32)">
-	<summary>
- Reads <c>count</c> shorts into the buffer.
- </summary>
-	<param name="buffer">Buffer to read into</param>
-	<param name="count">Number of shorts to read</param>
-	<param name="offset">Offset in shorts (2 bytes) from the current file position to start 
- reading from</param>
-	<returns>Number of bytes read.</returns>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Write(System.Byte[],System.Int32,System.Int32)">
-	<summary>
- Throws an exception; this is a read-only stream
- </summary>
-	<exception cref="T:System.InvalidOperationException">Thrown exception</exception>
-</member><member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Seek(System.Int64,System.IO.SeekOrigin)">
-	<summary>
- Seeks to the specified position in the stream, in bytes
- </summary>
-	<param name="position">Position to seek to</param>
-	<param name="origin">Specifies the starting postion of the seek</param>
-</member><member name="P:AudiogenWaveWriter.My.Resources.Resources.ResourceManager">
-	<summary>
+<member name="T:AudiogenWaveWriter.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AudiogenWaveWriter.My.Resources.Resources.ResourceManager">
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:AudiogenWaveWriter.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:AudiogenWaveWriter.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="T:AudiogenWaveWriter.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.DisposeResources(System.Boolean)">
+ <summary>
+ Clears up resources associated with this class.
+ </summary>
+ <param name="disposing"><code>true</code> if disposing from the <c>Dispose</c>
+ method, otherwise <c>false</c>.</param>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Filename">
+ <summary>
+ Gets/sets the wave file name.
+ </summary>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Channels">
+ <summary>
+ Gets the number of audio channels in the file.
+ </summary>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.SamplingFrequency">
+ <summary>
+ Gets the sample frequency of the file.
+ </summary>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.BitsPerSample">
+ <summary>
+ Gets the number of bits per sample in the wave file.
+ </summary>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.CanRead">
+ <summary>
+ Gets whether the stream can be read or not (true whenever a wave file
+ is open).
+ </summary>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.CanSeek">
+ <summary>
+ Gets whether the stream is seekable or not (true whenever a wave file
+ is open)
+ </summary>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.CanWrite">
+ <summary>
+ Returns false; this is a read-only stream
+ </summary>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Flush">
+ <summary>
+ Throws an exception; this is a read-only stream
+ </summary>
+ <exception cref="T:System.InvalidOperationException">Thrown exception</exception>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Length">
+ <summary>
+ Gets the length of this wave file, in bytes.
+ </summary>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.SetLength(System.Int64)">
+ <summary>
+ Throws an exception; this is a read-only stream
+ </summary>
+ <exception cref="T:System.InvalidOperationException">Thrown exception</exception>
+</member>
+<member name="P:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Position">
+ <summary>
+ Gets/sets the position within the wave file.
+ </summary>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read(System.Byte[],System.Int32)">
+ <summary>
+ Reads <c>count</c> bytes into the buffer.
+ </summary>
+ <param name="buffer">Buffer to read into</param>
+ <param name="count">Number of bytes to read</param>
+ <returns>Number of bytes read.</returns>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read(System.Byte[],System.Int32,System.Int32)">
+ <summary>
+ Reads <c>count</c> bytes into the buffer.
+ </summary>
+ <param name="buffer">Buffer to read into</param>
+ <param name="count">Number of bytes to read</param>
+ <param name="offset">Offset from the current file position to start reading from</param>
+ <returns>Number of bytes read.</returns>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read16bit(System.Int16[],System.Int32)">
+ <summary>
+ Reads <c>count</c> shorts into the buffer.
+ </summary>
+ <param name="buffer">Buffer to read into</param>
+ <param name="count">Number of shorts to read</param>
+ <returns>Number of bytes read.</returns>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Read16bit(System.Int16[],System.Int32,System.Int32)">
+ <summary>
+ Reads <c>count</c> shorts into the buffer.
+ </summary>
+ <param name="buffer">Buffer to read into</param>
+ <param name="count">Number of shorts to read</param>
+ <param name="offset">Offset in shorts (2 bytes) from the current file position to start 
+ reading from</param>
+ <returns>Number of bytes read.</returns>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Write(System.Byte[],System.Int32,System.Int32)">
+ <summary>
+ Throws an exception; this is a read-only stream
+ </summary>
+ <exception cref="T:System.InvalidOperationException">Thrown exception</exception>
+</member>
+<member name="M:AudiogenWaveWriter.AudiogenWaveWriter.clsWaveReader.Seek(System.Int64,System.IO.SeekOrigin)">
+ <summary>
+ Seeks to the specified position in the stream, in bytes
+ </summary>
+ <param name="position">Position to seek to</param>
+ <param name="origin">Specifies the starting postion of the seek</param>
 </member>
 </members>
 </doc>

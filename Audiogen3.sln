@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audiogen3", "Audiogen3\Audiogen3.csproj", "{17955251-89C7-47CC-B563-66F15188B280}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AudiogenWaveWriter", "Audiogen.WaveStream\AudiogenWaveWriter.vbproj", "{A522997C-DC22-4257-88C9-342BC0E85322}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Audiogen.WaveWriter", "Audiogen.WaveStream\Audiogen.WaveWriter.vbproj", "{A522997C-DC22-4257-88C9-342BC0E85322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audiogen.Mp3Decoder", "Audiogen.Mp3Decoder\Audiogen.Mp3Decoder.csproj", "{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,18 @@ Global
 		{A522997C-DC22-4257-88C9-342BC0E85322}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A522997C-DC22-4257-88C9-342BC0E85322}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A522997C-DC22-4257-88C9-342BC0E85322}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD7016A9-973C-4AAC-BBCA-74EF598FE0DD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

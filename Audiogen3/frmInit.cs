@@ -3,6 +3,27 @@ using System.Windows.Forms;
 using FlamedLib;
 namespace Audiogen3 {
     public partial class frmInit : Telerik.WinControls.UI.RadForm {
+        public void EndAbout() {
+            lblStatus.Text = "Loading Complete";
+            pgbProgress.Value1 = 100;
+            pgbProgress.Value2 = 100;
+            Application.DoEvents();
+            System.Threading.Thread.Sleep(500);
+        }
+        public void BeginAbout() {
+            lblStatus.Text = "Loading";
+            pgbProgress.Value1 = 0;
+            pgbProgress.Value2 = 0;
+            Application.DoEvents();
+            System.Threading.Thread.Sleep(500);
+        }
+        public void SetProgress(int progress) {
+            pgbProgress.Value1 = progress;
+            pgbProgress.Value2 = progress;
+            this.Refresh();
+            pgbProgress.Refresh();
+            Application.DoEvents();
+        }
         public frmInit() {
             InitializeComponent();
         }
@@ -10,6 +31,7 @@ namespace Audiogen3 {
             lblStatus.Text = text;
             lblStatus.Refresh();
             this.Refresh();
+            Application.DoEvents();
             System.Threading.Thread.Sleep(500);
         }
         private void frmInit_Load(object sender, EventArgs e) {

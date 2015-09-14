@@ -1,0 +1,9 @@
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\obj\Debug\Audiogen.Mp3Decoder.csprojResolveAssemblyReference.cache
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\bin\Debug\Audiogen.Mp3Decoder.dll
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\bin\Debug\Audiogen.Mp3Decoder.pdb
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\bin\Debug\AudiogenWaveWriter.dll
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\bin\Debug\Mp3Sharp.dll
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\bin\Debug\AudiogenWaveWriter.pdb
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\bin\Debug\AudiogenWaveWriter.xml
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\obj\Debug\Audiogen.Mp3Decoder.dll
+C:\dev\team-nexgen\audiogen\audiogen3\Audiogen.Mp3Decoder\obj\Debug\Audiogen.Mp3Decoder.pdb
